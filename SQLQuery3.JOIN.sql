@@ -1,3 +1,5 @@
+## Joining two seperate data to make an analysis.
+
 SELECT M.First_Name, S.Last_Name 
 FROM MathematicsStudent M
 INNER JOIN School S
