@@ -15,7 +15,7 @@ FROM Trip t
 INNER JOIN Users c
 ON t.client_id = c.users_id AND c.banned = 'NO'
 INNER JOIN Users d
-ON t.driver_id = d.users_id AND d,banned = 'NO'
+ON t.driver_id = d.users_id AND d.banned = 'NO'
   ROUND(
     SUM(CASE 
           WHEN t.status IN ('cancelled_by_driver', 'cancelled_by_client') THEN 1 
