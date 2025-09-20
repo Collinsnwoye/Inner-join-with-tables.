@@ -1,6 +1,6 @@
 ## Joining two seperate data to make an analysis.
 
-SELECT M.First_Name, S.Last_Name 
+SELECT M.First_Name, S.Last_Name
 FROM MathematicsStudent M
 INNER JOIN School S
 ON M.First_Name = S.First_Name;
@@ -31,3 +31,4 @@ SELECT
 FROM TripDetails
 GROUP BY Day
 ORDER BY Day;
+
