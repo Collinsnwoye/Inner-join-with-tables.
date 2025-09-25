@@ -29,3 +29,4 @@ JOIN Users d ON t.driver_id = d.users_id AND d.banned = 'No' AND d.role = 'drive
 WHERE t.request_at BETWEEN '2013-10-01' AND '2013-10-03'
 GROUP BY t.request_at
 ORDER BY t.request_at;
+
